@@ -1,21 +1,168 @@
-.logo {
-    width: 1050.82px;
-    height: 626px;
-    top: 146px;
-    left: 195px;
-    gap: 0px;
-    opacity: 0px;
-    
-}
+
 body{
     background-color:#1EB1FB;
     ;
 }
-vector{
-width: 292px;
-height: 374px;
-top: 292px;
-gap: 0px;
-opacity: 0px;
-angle: 90 deg;
+
+.vector {
+    position: absolute;    
+    opacity: 1;  
+              
 }
+
+.vector img {
+    width: 85%;            
+    object-fit: contain;    
+
+}
+
+
+.containerG {
+   /*  position: absolute; */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center; 
+    height: 100vh; 
+    object-fit: contain;           
+
+}
+
+
+.logo img {
+    max-width: 100%; 
+    height: auto;
+    
+}
+
+
+.containerT {
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    object-fit: contain; 
+
+
+
+    
+}
+.logo {
+    width: auto;
+    height: auto;
+    top: auto;
+    left: 50%;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+}
+
+.containerM {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;  
+    margin-top: 30px; 
+    top: auto;
+}
+
+
+.containerM div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spotify, .youtube, .deezer, .podcasts, .amazon {
+    width: auto;
+    height: auto;
+}
+
+.containerM img {
+    max-width: 100%;
+    height: auto;
+    max-height: 40px; 
+}
+
+.vectorA {
+    padding: auto;
+    top: auto;
+    left: 1400px;
+    opacity: 1; 
+    display: flex;
+    justify-content: right; 
+    gap: 20px;  
+    margin-top: 30px;
+    width: 100%; 
+}
+
+
+.rectangulo {
+    width: 1440px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rectangulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+}
+
+
+.vectorAZ{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;  
+    margin-top: 30px;
+    width: 100%;
+}
+
+.Facebook, .Tiktok, .Instagram, .Bumboxpodcast, .youtube, .Bumbox{
+    width: auto;
+    height: auto;
+}
+
+.icons{
+    position: absolute;
+    top: auto;
+    padding: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    z-index: 10;
+    display: flex;
+    gap: 20px;
+  
+    
+  }
+  .icons i {
+    margin: 0 5px;
+  }
+  
+  .icons a {
+    color: white;
+  
+  }
+  
