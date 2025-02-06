@@ -3,9 +3,11 @@
 function Vector (){
 
     return (
-        <div className="vector">
-            <img src="src/components/img/Vector-1.svg" alt="" />
-        </div>
+
+            <div className="vector">
+                <img src="src/components/img/Vector-1.svg" alt="" />
+            </div>
+
     );
 }
 
